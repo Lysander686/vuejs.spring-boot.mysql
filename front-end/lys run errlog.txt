@@ -1,0 +1,20 @@
+
+> node-sass@4.9.3 install C:\Users\phi\Desktop\winDev\myGithubProj\taskAgilet2\front-end\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.9.3/win32-x64-72_binding.node
+Cannot download "https://github.com/sass/node-sass/releases/download/v4.9.3/win32-x64-72_binding.node":
+
+HTTP error 404 Not Found
+
+Hint: If github.com is not accessible in your location
+      try setting a proxy via HTTP_PROXY, e.g.
+
+      export HTTP_PROXY=http://example.com:1234
+
+or configure npm proxy via
+
+      npm config set proxy http://example.com:8080
+
+> node-sass@4.9.3 postinstall C:\Users\phi\Desktop\winDev\myGithubProj\taskAgilet2\front-end\node_modules\node-sass
+> node scripts/build.js
