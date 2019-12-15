@@ -12,6 +12,10 @@ spring.datasource.username=<your username>
 spring.datasource.password=<your password>
 ```
 
+## Make the project run - Lysander's fix
+
+
+
 ## Commands
 
 - Use `mvn install` to build both the front-end and the back-end
