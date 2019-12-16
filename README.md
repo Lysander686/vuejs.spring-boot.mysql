@@ -7,13 +7,10 @@ Open source task management tool built with Vue.js 2, Spring Boot 2, and MySQL 5
 Create `src/main/resources/application-dev.properties` with the following settings to override the settings in `application.properties`.
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/task_agile?useSSL=false
+spring.datasource.url=jdbc:mysql://localhost:3306/task_agile?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
 spring.datasource.username=<your username>
 spring.datasource.password=<your password>
 ```
-
-## Make the project run - Lysander's fix
-
 
 
 ## Commands
