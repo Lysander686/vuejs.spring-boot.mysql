@@ -4,7 +4,8 @@
 ```
 npm install
 ```
-
+	effect: Download required node_modules for the next step
+	
 ### Compiles and hot-reloads for development
 ```
 npm run serve

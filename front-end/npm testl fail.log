@@ -1,0 +1,29 @@
+
+Starting selenium server... started - PID:  8472
+
+[Login E2e] Test Suite
+==========================
+
+Running:  login test
+
+Error retrieving a new session from the selenium server
+
+Connection refused! Is selenium server started?
+{
+  value: {
+    message: 'session not created: Chrome version must be between 71 and 75\n' +
+      '  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\n' +
+      'Command duration or timeout: 1.69 seconds\n' +
+      "Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n" +
+      "System info: host: 'localUser', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'\n" +
+      'Driver info: driver.version: unknown',
+    error: 'session not created'
+  },
+  status: 33
+}
+
+ ERROR  Error: Command failed: C:\Users\localUser\Desktop\winDev\myGithubProj\taskAgilet2\front-end\node_modules\_nightwatch@0.9.21@nightwatch\bin\nightwatch --config C:\Users\localUser\Desktop\winDev\myGithubProj\taskAgilet2\front-end\node_modules\_@vue_cli-plugin-e2e-nightwatch@3.12.1@@vue\cli-plugin-e2e-nightwatch\nightwatch.config.js --env chrome
+Error: Command failed: C:\Users\localUser\Desktop\winDev\myGithubProj\taskAgilet2\front-end\node_modules\_nightwatch@0.9.21@nightwatch\bin\nightwatch --config C:\Users\localUser\Desktop\winDev\myGithubProj\taskAgilet2\front-end\node_modules\_@vue_cli-plugin-e2e-nightwatch@3.12.1@@vue\cli-plugin-e2e-nightwatch\nightwatch.config.js --env chrome
+    at makeError (C:\Users\localUser\Desktop\winDev\myGithubProj\taskAgilet2\front-end\node_modules\_execa@1.0.0@execa\index.js:174:9)
+    at C:\Users\localUser\Desktop\winDev\myGithubProj\taskAgilet2\front-end\node_modules\_execa@1.0.0@execa\index.js:278:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
