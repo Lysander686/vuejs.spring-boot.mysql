@@ -1,4 +1,4 @@
-import { mount, createLocalVue } from '@vue/test-utils'
+import { mount, createLocalVue } from '@vue/test-utils' //create a Wrapper object that contains the mounted and rendered RegisterPage.vue component
 import RegisterPage from '@/views/RegisterPage'
 import VueRouter from 'vue-router'
 import Vuelidate from 'vuelidate'
